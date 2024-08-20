@@ -7,12 +7,6 @@
       "modelo": "modelo1"
     },
     {
-      "id": 2,
-      "conteudo": "Estou fazendo um teste!",
-      "autoria": "Eduardo",
-      "modelo": "modelo2"
-    },
-    {
       "id": 3,
       "conteudo": "Fusce urna mi, consectetur non nibh semper, eleifend imperdiet felis. Nam in scelerisque velit. Nullam blandit, elit non auctor convallis, enim metus scelerisque lectus, malesuada vulputate massa arcu nec metus. Mauris molestie arcu nec sodales vulputate. Sed sollicitudin nisl eget commodo finibus. Donec venenatis augue est. Aliquam ac tristique libero.",
       "autoria": "Rafael",
