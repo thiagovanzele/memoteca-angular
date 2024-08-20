@@ -1,15 +1,15 @@
 {
   "pensamentos": [
     {
-      "conteudo": "isso aqui foi editado",
-      "autoria": "quem editou foi eu",
-      "modelo": "modelo1",
+      "conteudo": "Desenvolvido em Angular",
+      "autoria": "Thiago Vanzele",
+      "modelo": "modelo3",
       "id": 1
     },
     {
-      "conteudo": "fdasfds",
-      "autoria": "fdsfdsfsdf",
-      "modelo": "modelo1",
+      "conteudo": "Aqui você pode adicionar seus pensamentos, músicas, citações de livros, e suas melhores ideias.",
+      "autoria": "Thiago Vanzele",
+      "modelo": "modelo2",
       "id": 2
     }
   ]
