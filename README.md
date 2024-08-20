@@ -1,27 +1,87 @@
-# Memoteca
+# Memoteca Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+## Descrição
 
-## Development server
+O projeto Memoteca é uma aplicação desenvolvida com Angular, que permite a gestão de pensamentos ou idéias. O sistema é projetado para realizar operações de CRUD (Create, Read, Update, Delete) em todos pensamentos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- **Gerenciamento de Pensamentos**: Adicionar, atualizar, excluir e listar pensamentos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- **TypeScript**: Linguagem de programação principal.
+- **Angular**: Framework para desenvolvimento do frontend.
+- **Npm**: Gerenciador de dependências e build.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Pré-requisitos
 
-## Running unit tests
+Antes de começar, você precisará ter os seguintes softwares instalados:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [NodeJs](https://nodejs.org/en/download/prebuilt-binaries/current)
+- [Angular CLI](https://angular.dev/installation)
+- [JsonServer](https://www.npmjs.com/package/json-server)
 
-## Running end-to-end tests
+## Instalação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Faça o clone do repositório**:
 
-## Further help
+   ```bash
+   git clone https://github.com/thiagovanzele/memoteca-angular.git
+    ```
+2. **Navegue até o diretório do projeto:**:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   cd memoteca
+      ```
+3. **Execute tanto o frontend quanto backend em terminais separados**
+
+- ***Frontend***:
+   ```bash
+   ng serve --open
+   ```
+   
+- ***Backend***:
+   ```bash
+   npm start
+   ```
+     
+## Uso
+
+Após iniciar a aplicação, você pode acessar o Frontend através do endpoint:
+
+- **Base URL**: `http://localhost:4200`
+
+### Endpoints
+
+- **Pensamentos**:
+  - `/listarpensamento` - Listar todos os pensamentos.
+  - `/criarpensamento` - Adicionar um novo pensamento.
+ 
+
+## Exemplos 
+
+***Adicionar pensamentos:***
+- ![Adicionar novo pensamento](https://github.com/thiagovanzele/memoteca-angular/raw/main/src/assets/github/adicionarPensamento.jpg)
+
+***Listar pensamentos:***
+- ![Adicionar novo pensamento](https://github.com/thiagovanzele/memoteca-angular/raw/main/src/assets/github/listarPensamentos.jpg)
+
+***Excluir pensamentos:***
+- ![Adicionar novo pensamento](https://github.com/thiagovanzele/memoteca-angular/raw/main/src/assets/github/excluirPensamento.jpg)
+
+  
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo `LICENSE` para detalhes.
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, entre em contato:
+
+**Thiago Vanzele** - thiagovanzele@gmail.com  
+[LinkedIn - Thiago Vanzele](https://www.linkedin.com/in/thiagovanzele)
+
+
+
